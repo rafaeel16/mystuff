@@ -1,0 +1,199 @@
+$width: 100%;
+$font-size: 1.2em;
+$background: #962acd;
+$color: #fff;
+$border-style: solid 1px $color;
+
+$width-rem: 3.5rem;
+$width-px: 300px;
+
+$font: "Lucinda Grande";
+$weight: bold;
+
+$bg: red;
+$bg-section: rgb(100, 100, 100);
+$font-color: #fff;
+
+$margin: 10px 10px 10px 10px;
+
+// map-list
+$social: (
+  facebook: #3b5998,
+  flickr: #0063db,
+  github: #4183c4,
+  googleplus: #dd4b39,
+  instagram: #517fa4,
+  linkedin: #007bb6,
+  pinterest: #cb2027,
+  soundcloud: #f60,
+  twitter: #00aced,
+  youtube: #b00
+);
+
+// Interpolação
+$name: destaque;
+$attr: border;
+
+.#{$name} p{
+  #{$attr}-color: blue;
+}
+
+nav {
+  width: $width;
+  background-color: $background;
+  color:$color;
+  font-size: $font-size;
+
+
+  ul {
+    list-style: none;
+    padding: 20px 0;
+  }
+
+  li {
+    color: red;
+    margin: 0 20px;
+    font: {
+      family:Arial;
+      size:14px;
+      weight:bold
+    }
+  }
+
+  a {
+    color: red;
+    &:hover {
+      color: blue;
+    }
+  }
+}
+
+aside {
+  width: $width-px;
+  margin: $margin;
+}
+
+section {
+  font-family: $font;
+  font-weight: $weight;
+  background: $bg-section;
+}
+
+
+body {
+  background: $bg;
+  color: $font-color;
+}
+
+// EXTEND
+.msg {
+  border: 1px solid;
+  padding:4px;
+  text-align: center;
+}
+.msg-error {
+  @extend .msg;
+  border-color: #ff0000;
+  color:#ff0000;
+}
+.msg-alert {
+  @extend .msg;
+  border-color: #ff8e00;
+  color: #ff8e00;
+}
+a:hover {
+  text-decoration: underline;
+}
+.hoverlink {
+  @extend a:hover;
+  color: #000;
+}
+
+// MIXINS
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.box {
+  @include border-radius(10px);
+}
+
+@mixin titulo($size, $tcolor: blue) {
+  color: $tcolor;
+  font-size: $size;
+}
+h1 {
+  @include titulo(14px);
+}
+h1 {
+  @include titulo(14px,green);
+}
+
+// ao utilizar '...' você pode passar quantos parametros precisar
+@mixin pad ($values...) {
+  padding:$values;
+}
+
+p {
+  @include pad(20px);
+}
+p {
+  @include pad(10px 20px 30px 20px);
+}
+
+// FUNCTIONS
+@function calc-fluid($target, $container){
+  @return ($target/$container) *100%;
+}
+
+div {
+  width: calc-fluid(400px, 1000px);
+}
+
+// PLACEHOLDERS(Reaproveitar blocos estáticos)
+%center {
+  display: block;
+  margin:0 auto;
+}
+
+div {
+  @extend %center;
+}
+
+// Control Directives
+$template: dark;
+header {
+  @if($template == dark) {
+    color: #000;
+  } @else {
+    color:blue;
+  }
+}
+
+//Iteration
+// through até i = 3
+@for $i from 1 through 3 {
+  .item-#{$i} { width: 2em * $i;}
+}
+// to até i < 3
+@for $i from 1 to 3 {
+  .ITEM-#{$i} { width: 2em * $i;}
+}
+
+$animals: dog, cat, fish, bird;
+@each $animal in $animals {
+  .#{$animal}-icon {
+    background-image: url("images/#{$animal}.png")
+  }
+}
+
+$i: 6;
+@while $i > 0 {
+  .item-#{$i} {
+    width: 2em * $i;
+  }
+  $i: $i - 2;
+}

@@ -1,0 +1,119 @@
+.destaque p {
+  border-color: blue; }
+
+nav {
+  width: 100%;
+  background-color: #962acd;
+  color: #fff;
+  font-size: 1.2em; }
+  nav ul {
+    list-style: none;
+    padding: 20px 0; }
+  nav li {
+    color: red;
+    margin: 0 20px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold; }
+  nav a {
+    color: red; }
+    nav a:hover, nav .hoverlink {
+      color: blue; }
+
+aside {
+  width: 300px;
+  margin: 10px 10px 10px 10px; }
+
+section {
+  font-family: "Lucinda Grande";
+  font-weight: bold;
+  background: #646464; }
+
+body {
+  background: red;
+  color: #fff; }
+
+.msg, .msg-error, .msg-alert {
+  border: 1px solid;
+  padding: 4px;
+  text-align: center; }
+
+.msg-error {
+  border-color: #ff0000;
+  color: #ff0000; }
+
+.msg-alert {
+  border-color: #ff8e00;
+  color: #ff8e00; }
+
+a:hover, .hoverlink {
+  text-decoration: underline; }
+
+.hoverlink {
+  color: #000; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+h1 {
+  color: blue;
+  font-size: 14px; }
+
+h1 {
+  color: green;
+  font-size: 14px; }
+
+p {
+  padding: 20px; }
+
+p {
+  padding: 10px 20px 30px 20px; }
+
+div {
+  width: 40%; }
+
+div {
+  display: block;
+  margin: 0 auto; }
+
+header {
+  color: #000; }
+
+.item-1 {
+  width: 2em; }
+
+.item-2 {
+  width: 4em; }
+
+.item-3 {
+  width: 6em; }
+
+.ITEM-1 {
+  width: 2em; }
+
+.ITEM-2 {
+  width: 4em; }
+
+.dog-icon {
+  background-image: url("images/dog.png"); }
+
+.cat-icon {
+  background-image: url("images/cat.png"); }
+
+.fish-icon {
+  background-image: url("images/fish.png"); }
+
+.bird-icon {
+  background-image: url("images/bird.png"); }
+
+.item-6 {
+  width: 12em; }
+
+.item-4 {
+  width: 8em; }
+
+.item-2 {
+  width: 4em; }
