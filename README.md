@@ -31,5 +31,3 @@ http://getbootstrap.com.br/
 ## Animação
 
 https://daneden.github.io/animate.css/
-
-
