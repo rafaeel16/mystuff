@@ -12,10 +12,14 @@ Nome do model SEMPRE no Singular e nome da tabela sempre no plural se você quis
 
 O Eloquent sempre utilizar a primary key id como padrão, se voce quiser colocar uma primary diferente disso, você também tem que especificar no Model, exemplo: protected $primaryKey = 'codigo';
 
-Dentro da pasta views tem a pasta layout que ficam o header e o footer do siteno arquivo app.blade.php.
+Dentro da pasta views tem a pasta layout que ficam o header e o footer do site no arquivo app.blade.php.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 php artisan list (Listar comandos)
+
+php artisan app:name SeuNameSpace (Caso queira alterar o nameSpace Padrão que é App para o seu)
+
+php artisan serve (Roda a aplicação)
 
 php artisan make:controller nomeController
 php artisan make:model Cliente
@@ -44,6 +48,13 @@ $cliente2 = App\Cliente::find(2); //Procurando o Cliente com o ID número 2;
 //Se tiver um campo no banco tipo_usuário e ele não estiver no fillable então uma tentativa do usuário mal intencionado mudar o tipo de usuário dele via get não vai ser sucedida.
 
 //FInal Tinker
+
+//Para utilizar o Ajax é só retornar um Json para a view, exemplo:
+public function lista() 
+{
+	$variavel = [0=>'teste', 1=>'teste']; //Json que irá ser retornado para o Ajax.
+	return $variavel;
+}
 
 Procurar como fazer no laravel:
 -Validação dos Dados;
