@@ -1,3 +1,9 @@
+Documentação Traduzida:
+https://github.com/rhchristian/laravel-docs-pt-br
+
+Link do Curso:
+https://www.youtube.com/watch?v=azrw0l8uP5c&list=PLInBAd9OZCzylabwvLeJIa9gxbS7MmzNY
+
 Imports para fazer no Projeto:
 
 Esta Facade é para você poder Utilizar formulário na view utilizando blade.
