@@ -1,2 +1,2 @@
 # eunapolis
-http://eunapolis.ba.gov.br/eu/
+http://eunapolis.ba.gov.br
