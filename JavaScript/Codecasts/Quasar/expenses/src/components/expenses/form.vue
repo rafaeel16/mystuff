@@ -8,53 +8,30 @@
 </template>
 
 <script>
-export default {
-    data() {
-
+    export default {
+      data () {
         return {
-
-            expenses: {
-                amount: '',
-
-                description: '',
-
-                date: ''
-            }
+          expenses: {
+            amount: '',
+            description: '',
+            date: ''
+          }
         }
-    },
-    methods: {
-        
-        submit(){
-
+      },
+      methods: {
+        submit () {
         }
+      }
     }
-}
 </script>
 
 <style scoped>
-.my-input {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.my-button {
-    width: 100%;
-    margin: .2em .1em;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    border: none;
-    border-bottom: .15em solid black;
-    border-radius: 3px;
-    padding: 1em 2em;
-    color: #fff;
-    border-color: #2a6496;
-    background-image: linear-gradient(#428bca, #357ebd);
-}
-
-.my-button:hover {
-    background: linear-gradient(#357ebd, #3071a9);
-}
+    .my-input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .my-button {
+        width: 100%;
+    }
 </style>

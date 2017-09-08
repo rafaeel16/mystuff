@@ -1,6 +1,6 @@
 <script>
 import CcForm from './expenses/form.vue'
-// import CcList from './expenses/list.vue'
+import CcList from './expenses/list.vue'
 
 import {
   QLayout,
@@ -29,7 +29,8 @@ export default {
     QItemSide,
     QItemMain,
 
-    CcForm
+    CcForm,
+    CcList
   }
 }
 </script>
@@ -43,8 +44,8 @@ export default {
       </q-toolbar-title>
     </q-toolbar>
     <div class="container">
-      <cc-form></cc-form>
-      <!-- <cc-list></cc-list> -->
+      <cc-form class="primary"></cc-form>
+      <cc-list></cc-list>
     </div>
   </q-layout>
 </template>
