@@ -1,5 +1,5 @@
-https://codecasts.com.br/series/vue-confee
+- https://codecasts.com.br/series/vuejs-init
 
-- Bonus: https://codecasts.com.br/series/highcharts-em-componentes-vue-js
-	 https://codecasts.com.br/series/vuejs-advanced
-	 https://codecasts.com.br/series/vuejs-init
+- https://codecasts.com.br/series/vuejs-advanced
+
+- https://codecasts.com.br/series/vue-confee
