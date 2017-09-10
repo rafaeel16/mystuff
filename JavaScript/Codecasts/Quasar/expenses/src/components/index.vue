@@ -32,7 +32,7 @@ export default {
     CcForm,
     CcList
   },
-    computed: {
+  computed: {
     list () {
       return this.$store.state.Expenses.list
     }

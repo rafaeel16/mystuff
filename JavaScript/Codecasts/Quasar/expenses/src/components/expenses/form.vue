@@ -9,11 +9,13 @@
 
 <script>
     import moment from 'moment'
+    import {uid} from 'quasar'
 
     export default {
       data () {
         return {
           expense: {
+            id: '',
             amount: '',
             description: '',
             date: moment().format('DD/MM/YYYY')
@@ -23,6 +25,8 @@
       methods: {
         submit () {
           const cloned = JSON.parse(JSON.stringify(this.expense))
+
+          cloned.id = uid()
 
           this.$store.commit('ADD_EXPENSE', cloned)
 
