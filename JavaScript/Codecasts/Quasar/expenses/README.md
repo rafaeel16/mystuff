@@ -1,6 +1,9 @@
 # https://codecasts.com.br/series/introducao-quasar
 
-- Aula 7
+- Aula 8
+
+OBS: Travei na aula 8 ao persistir no Storage, então pulei pra aula que gera o APK
+E agora estou tendo dificuldades ao gerar o APK, estou tentando contornar isso.
 
 # Quasar App
 
