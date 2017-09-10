@@ -1,3 +1,7 @@
+# https://codecasts.com.br/series/introducao-quasar
+
+- Aula 7
+
 # Quasar App
 
 > A Quasar project

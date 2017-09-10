@@ -31,6 +31,11 @@ export default {
 
     CcForm,
     CcList
+  },
+    computed: {
+    list () {
+      return this.$store.state.Expenses.list
+    }
   }
 }
 </script>
@@ -45,6 +50,7 @@ export default {
     </q-toolbar>
     <div class="container">
       <cc-form class="primary"></cc-form>
+      <hr v-show="list.length > 0">
       <cc-list></cc-list>
     </div>
   </q-layout>

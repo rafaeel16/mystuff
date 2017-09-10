@@ -28,7 +28,7 @@
 
           this.reset()
         },
-        reset() {
+        reset () {
           this.expense.amount = ''
 
           this.expense.description = ''
