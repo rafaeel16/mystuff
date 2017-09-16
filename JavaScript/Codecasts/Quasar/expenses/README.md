@@ -1,9 +1,8 @@
 # https://codecasts.com.br/series/introducao-quasar
 
-- Aula 8
+- Pulei da aula 8 para o Final.
 
-OBS: Travei na aula 8 ao persistir no Storage, então pulei pra aula que gera o APK
-Consegui resolver o problema de compilação do APK agora ja está compilando.
+OBS: Travei na aula 8 ao persistir no Storage, então pulei pra aula que gera o APK.
 
 # Quasar App
 
