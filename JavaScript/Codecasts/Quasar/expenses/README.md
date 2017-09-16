@@ -3,8 +3,7 @@
 - Aula 8
 
 OBS: Travei na aula 8 ao persistir no Storage, então pulei pra aula que gera o APK
-E agora estou tendo dificuldades ao gerar o APK, estou tentando contornar isso.
-Resolvi o problema do Gradle, agora falta resolver o problema do JAVA_HOME.
+Consegui resolver o problema de compilação do APK agora ja está compilando.
 
 # Quasar App
 
