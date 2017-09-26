@@ -1,4 +1,4 @@
-# MemeBlock Game
+# MemeBlock Game (Projeto para a aula de multimídia)
 
 Aula 5
 
