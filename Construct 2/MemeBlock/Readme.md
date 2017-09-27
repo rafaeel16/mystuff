@@ -3,3 +3,7 @@
 Aula 6
 
 https://www.youtube.com/watch?v=tLbHfeuBfi4&index=6&list=PLW7PqRQiUonlrwBRTcs-QTwzz97AoV8JY
+
+Ideias de Meme:
+
+"Este é alguem" tentando se formar;
