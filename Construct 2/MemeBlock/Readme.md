@@ -1,12 +1,23 @@
+# Tentei gerar o APK mas deu error, gerar de novo e verificar este problema no build.
+
 # MemeBlock Game (Projeto para a aula de multimídia)
 
 Aula 7
 
 https://www.youtube.com/watch?v=3Hj3N2SWAhE&index=7&list=PLW7PqRQiUonlrwBRTcs-QTwzz97AoV8JY
 
+--------------------------------------------------
 Ideias de Meme:
 
 "Este é alguem" tentando se formar;
+
+"Save Memes" a cada fase um novo meme para salvar (Bambam, saindo da jaula)
+
+Ideias de assets:
+
+Colocar as argolas do Sonic;
+
+---------------------------------------------------
 
 build apk com cordova:
 https://www.youtube.com/watch?v=D-t9k2A75eI
