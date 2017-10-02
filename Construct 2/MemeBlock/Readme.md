@@ -15,7 +15,7 @@ Ideias de Meme:
 
 Ideias de assets:
 
-Colocar as argolas do Sonic;
+Colocar as argolas do Sonic ou moedas Mario;
 
 ---------------------------------------------------
 
