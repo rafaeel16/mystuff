@@ -2,9 +2,9 @@
 
 # MemeBlock Game (Projeto para a aula de multimídia)
 
-Aula 10
+Aula 10 (24:00)
 
-https://www.youtube.com/watch?v=G94uksR3Dag&index=10&list=PLW7PqRQiUonlrwBRTcs-QTwzz97AoV8JY
+https://www.youtube.com/watch?v=G94uksR3Dag&list=PLW7PqRQiUonlrwBRTcs-QTwzz97AoV8JY&index=10
 
 --------------------------------------------------
 Ideias de Meme:
