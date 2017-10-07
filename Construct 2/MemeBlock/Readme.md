@@ -9,13 +9,14 @@ https://www.youtube.com/watch?v=G94uksR3Dag&list=PLW7PqRQiUonlrwBRTcs-QTwzz97AoV
 --------------------------------------------------
 Ideias de Meme:
 
-"Este é alguem" tentando se formar;
+Vou usar o Meme do Bambam!
 
-"Save Memes" a cada fase um novo meme para salvar (Bambam, saindo da jaula)
+player: Felipe Franco, Bambam(Jaula), Frango(Enemy);
 
 Ideias de assets:
 
-Colocar as argolas do Sonic ou moedas Mario;
+As Moedas vão ser halteres;
+Background: Academia;
 
 ---------------------------------------------------
 
