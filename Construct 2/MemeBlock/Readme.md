@@ -1,10 +1,8 @@
+# Meme: https://www.youtube.com/watch?v=zwvsa7DzzHY
+
 # Tentei gerar o APK mas deu error, gerar de novo e verificar este problema no build.
 
-# MemeBlock Game (Projeto para a aula de multimídia)
-
-Aula 10 (24:00)
-
-https://www.youtube.com/watch?v=G94uksR3Dag&list=PLW7PqRQiUonlrwBRTcs-QTwzz97AoV8JY&index=10
+# Birl Game (Projeto para a aula de multimídia)
 
 --------------------------------------------------
 Ideias de Meme:
