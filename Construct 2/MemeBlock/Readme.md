@@ -1,6 +1,8 @@
-# Meme: https://www.youtube.com/watch?v=zwvsa7DzzHY
+- Tentei gerar o APK mas deu error, gerar de novo e verificar este problema no build.
 
-# Tentei gerar o APK mas deu error, gerar de novo e verificar este problema no build.
+- Estou com problema com alguns sounds (Verificar).
+
+# Meme: https://www.youtube.com/watch?v=zwvsa7DzzHY
 
 # Birl Game (Projeto para a aula de multimídia)
 
