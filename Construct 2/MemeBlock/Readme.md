@@ -1,6 +1,7 @@
 - Tentei gerar o APK mas deu error, gerar de novo e verificar este problema no build.
 
-- Estou com problema com alguns sounds (Verificar).
+- Estou com problema com alguns sounds, se tocar esses sounds em outras partes
+funciona, somente onde é para ser chamado que acontece o problema.
 
 # Meme: https://www.youtube.com/watch?v=zwvsa7DzzHY
 
