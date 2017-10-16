@@ -1,5 +1,3 @@
-- Tentei gerar o APK mas deu error, gerar de novo e verificar este problema no build.
-
 # Meme: https://www.youtube.com/watch?v=zwvsa7DzzHY
 
 # Birl Game (Projeto para a aula de multimídia)
@@ -18,19 +16,8 @@ As Moedas vão ser halteres;
 ---------------------------------------------------
 
 build apk com cordova:
-https://www.youtube.com/watch?v=D-t9k2A75eI
+https://www.youtube.com/watch?v=PoiuoCPm2bQ
 
-Gerando APK com cordova:
-
-Primeiro exporte o projeto como um projeto cordova no Construct;
-Terminal: cordova platform add android;
-navegue até a pasta www e copie o arquivo config.xml para a raiz;
-coloque o arquivo icon.png e splash.png na raiz;
-agora faça o build: cordova build android;
-navegue até a pasta platforms/android//build/outputs/apk;
-
-Pronto!!
-
-
+**Escrever tutorial
 
 OBS: se for publicar na playstore, verifique como gerar a keystore;
