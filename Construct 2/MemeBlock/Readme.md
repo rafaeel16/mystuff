@@ -18,6 +18,12 @@ As Moedas vão ser halteres;
 build apk com cordova:
 https://www.youtube.com/watch?v=PoiuoCPm2bQ
 
-**Escrever tutorial
+Tutorial para gerar APK:
+
+- Exportar o projeto como Cordova(Desmarcar a opção do Intel XDK)
+- Criar um boilerplate cordova: cordova create nameFolder
+- 
+
+
 
 OBS: se for publicar na playstore, verifique como gerar a keystore;
