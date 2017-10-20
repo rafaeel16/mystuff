@@ -32,3 +32,9 @@ Tutorial para gerar APK:
 
 
 OBS: se for publicar na playstore, verifique como gerar a keystore;
+
+---------------------------------------------------
+
+* Checklist
+
+- diminuir a distancia do touchIn quando puxa a ball para o circle.
