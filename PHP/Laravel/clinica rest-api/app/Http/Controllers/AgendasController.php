@@ -47,11 +47,11 @@ class AgendasController extends Controller
             ], 404);
         }
 
-        $agenda->fill($request->all());
+        $agenda->update($request->all());
         $agenda->save();
 
         return response()->json($agenda);
-  }
+    }
 
   public function destroy($id)
   {

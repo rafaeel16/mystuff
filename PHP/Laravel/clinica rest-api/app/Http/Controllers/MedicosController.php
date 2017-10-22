@@ -52,11 +52,11 @@ class MedicosController extends Controller
             ], 404);
         }
 
-        $medico->fill($request->all());
+        $medico->update($request->all());
         $medico->save();
 
         return response()->json($medico);
-  }
+    }
 
   // Deletando um Registro  public function destroy($id)
   public function destroy($id)

@@ -49,7 +49,7 @@ class StatusController extends Controller
             ], 404);
         }
 
-        $status->fill($request->all());
+        $status->update($request->all());
         $status->save();
 
         return response()->json($status);

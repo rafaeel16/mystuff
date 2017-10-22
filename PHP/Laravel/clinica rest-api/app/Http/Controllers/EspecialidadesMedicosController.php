@@ -47,11 +47,11 @@ class EspecialidadesMedicosController extends Controller
             ], 404);
         }
 
-        $especialidade->fill($request->all());
+        $especialidade->update($request->all());
         $especialidade->save();
 
         return response()->json($especialidade);
-  }
+    }
 
   public function destroy($id)
   {

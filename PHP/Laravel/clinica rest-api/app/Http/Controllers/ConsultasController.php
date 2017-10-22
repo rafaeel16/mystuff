@@ -47,11 +47,11 @@ class ConsultasController extends Controller
             ], 404);
         }
 
-        $consulta->fill($request->all());
+        $consulta->update($request->all());
         $consulta->save();
 
         return response()->json($consulta);
-  }
+    }
 
   public function destroy($id)
   {

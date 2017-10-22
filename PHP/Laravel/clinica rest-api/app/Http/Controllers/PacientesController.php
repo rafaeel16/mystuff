@@ -52,11 +52,11 @@ class PacientesController extends Controller
             ], 404);
         }
 
-        $paciente->fill($request->all());
+        $paciente->update($request->all());
         $paciente->save();
 
         return response()->json($paciente);
-  }
+    }
 
   // Deletando um Registro
   public function destroy($id)
