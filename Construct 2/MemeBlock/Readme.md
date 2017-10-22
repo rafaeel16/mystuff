@@ -35,7 +35,11 @@ OBS: se for publicar na playstore, verifique como gerar a keystore;
 
 ---------------------------------------------------
 
-* Checklist
+# Checklist
 
 - diminuir a distancia do touchIn quando puxa a ball para o circle.
+
 - melhorar a particula de sangue
+
+- ajeitar os sounds quando passar de fase
+
