@@ -43,3 +43,5 @@ OBS: se for publicar na playstore, verifique como gerar a keystore;
 
 - ajeitar os sounds quando passar de fase
 
+- Monetizar: Movimentos extras e Skins
+
