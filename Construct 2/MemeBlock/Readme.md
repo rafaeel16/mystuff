@@ -37,7 +37,7 @@ OBS: se for publicar na playstore, verifique como gerar a keystore;
 
 # Checklist
 
-- diminuir a distancia do touchIn quando puxa a ball para o circle.
+- diminuir a distancia do touchIn quando puxa a ball para o circle. OK
 
 - melhorar a particula de sangue
 
