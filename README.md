@@ -22,8 +22,6 @@ http://codepen.io/
 
 http://materializecss.com/
 
-http://foundation.zurb.com/
-
 http://semantic-ui.com/
 
 http://getbootstrap.com.br/
@@ -31,3 +29,12 @@ http://getbootstrap.com.br/
 ## Animação
 
 https://daneden.github.io/animate.css/
+
+Links úteis:
+http://cheats.jesse-obrien.ca/ (Laravel)
+https://loading.io/
+http://css3studio.com/index.php
+https://tinypng.com/
+https://www.browserstack.com/
+http://jstherightway.org/pt-br/
+https://browserdiet.com/pt/
