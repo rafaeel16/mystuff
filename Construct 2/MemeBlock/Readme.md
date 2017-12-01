@@ -29,6 +29,13 @@ Tutorial para gerar APK:
 - Agora configure os icones no Config.xml se quiser
 - Agora para gerar o apk use o comando: cordova build
 
+Linhas referentes ao icones:
+
+ <icon density="ldpi" height="36" platform="android" src="res/icon/android/icon-36-ldpi.png" width="36" />
+    <icon density="mdpi" height="48" platform="android" src="res/icon/android/icon-48-mdpi.png" width="48" />
+    <icon density="hdpi" height="72" platform="android" src="res/icon/android/icon-72-hdpi.png" width="72" />
+    <icon density="xhdpi" height="96" platform="android" src="res/icon/android/icon-96-xhdpi.png" width="96" />﻿
+
 
 
 OBS: se for publicar na playstore, verifique como gerar a keystore;

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.rafaelsantanna.memeblock" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="CorHttpd">
+        <param name="android-package" value="com.rjfun.cordova.httpd.CorHttpd" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Meme Block</name>
+    <description>Memeblock Game</description>
+    <author email="rafaeel.16@gmail.com" href="https://rafaelsantanna.github.io">Rafael Santanna</author>
+    <icon density="ldpi" height="36" platform="android" src="res/icon/android/icon-36-ldpi.png" width="36" />
+    <icon density="mdpi" height="48" platform="android" src="res/icon/android/icon-48-mdpi.png" width="48" />
+    <icon density="hdpi" height="72" platform="android" src="res/icon/android/icon-72-hdpi.png" width="72" />
+    <icon density="xhdpi" height="96" platform="android" src="res/icon/android/icon-96-xhdpi.png" width="96" />
+    <icon height="128" src="icon-128.png" width="128" />
+    <icon gap:role="default" height="256" src="icon-256.png" width="256" />
+    <gap:config-file parent="UIStatusBarHidden" platform="ios">
+        <true />
+    </gap:config-file>
+    <gap:config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios">
+        <false />
+    </gap:config-file>
+    <access origin="*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="permissions" value="none" />
+    <preference name="android-targetSdkVersion" value="21" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="true" />
+    <preference name="deployment-target" value="8.0" />
+    <preference name="android-minSdkVersion" value="16" />
+</widget>

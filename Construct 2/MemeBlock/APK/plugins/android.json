@@ -1,0 +1,28 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.rafaelsantanna.memeblock"
+        },
+        "cordova-plugin-httpd": {
+            "PACKAGE_NAME": "com.rafaelsantanna.memeblock"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.rafaelsantanna.memeblock"
+        },
+        "cordova-plugin-wkwebview-engine": {
+            "PACKAGE_NAME": "com.rafaelsantanna.memeblock"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.rafaelsantanna.memeblock"
+        }
+    }
+}
