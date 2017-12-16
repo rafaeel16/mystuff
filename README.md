@@ -32,9 +32,15 @@ https://daneden.github.io/animate.css/
 
 Links úteis:
 http://cheats.jesse-obrien.ca/ (Laravel)
+
 https://loading.io/
+
 http://css3studio.com/index.php
+
 https://tinypng.com/
+
 https://www.browserstack.com/
+
 http://jstherightway.org/pt-br/
+
 https://browserdiet.com/pt/
