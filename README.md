@@ -45,3 +45,5 @@ https://www.browserstack.com/
 http://jstherightway.org/pt-br/
 
 https://browserdiet.com/pt/
+
+http://issuehub.io/ (alguns projetos open-source) 
