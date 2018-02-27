@@ -30,6 +30,8 @@ http://getbootstrap.com.br/
 
 https://daneden.github.io/animate.css/
 
+http://pavlyukpetr.com/awesome/
+
 ## Links úteis:
 
 http://cheats.jesse-obrien.ca/ (Laravel)
