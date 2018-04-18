@@ -49,3 +49,9 @@ http://jstherightway.org/pt-br/
 https://browserdiet.com/pt/
 
 http://issuehub.io/ (alguns projetos open-source) 
+
+http://www.maujor.com/blog/
+
+https://origamid.com/projetos/flexbox-guia-completo/
+
+http://webfatorial.github.io/grid/
