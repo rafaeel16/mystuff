@@ -32,6 +32,9 @@ https://daneden.github.io/animate.css/
 
 http://pavlyukpetr.com/awesome/
 
+## Design
+https://www.photopea.com/
+
 ## Links úteis:
 
 http://cheats.jesse-obrien.ca/ (Laravel)
