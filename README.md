@@ -58,3 +58,9 @@ http://www.maujor.com/blog/
 https://origamid.com/projetos/flexbox-guia-completo/
 
 http://webfatorial.github.io/grid/
+
+https://codetogo.io
+
+https://programathor.com.br/blog/
+
+https://www.froala.com/design-blocks
