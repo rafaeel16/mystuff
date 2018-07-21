@@ -64,3 +64,5 @@ https://codetogo.io
 https://programathor.com.br/blog/
 
 https://www.froala.com/design-blocks
+
+http://animista.net/
