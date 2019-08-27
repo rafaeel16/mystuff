@@ -35,6 +35,8 @@ http://pavlyukpetr.com/awesome/
 ## Design
 https://www.photopea.com/
 
+https://materialpalettes.com/
+
 ## Links úteis:
 
 http://cheats.jesse-obrien.ca/ (Laravel)
